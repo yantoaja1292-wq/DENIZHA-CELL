@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DENIZHA CELL - Pulsa & PPOB</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #111827, #16a34a);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 90px;
+      height: 90px;
+      background: white;
+      color: #16a34a;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 15px;
+      font-size: 25px;
+      font-weight: bold;
+      box-shadow: 0 8px 25px rgba(0,0,0,.2);
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: .95;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #22c55e;
+      color: white;
+      padding: 14px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 25px;
+      box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    }
+
+    .btn:hover {
+      background: #15803d;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 45px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+      font-size: 30px;
+      color: #111827;
+    }
+
+    .section-title p {
+      color: #666;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 5px 20px rgba(0,0,0,.08);
+      transition: .2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+    }
+
+    .price-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    }
+
+    .price-table th,
+    .price-table td {
+      padding: 14px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    .price-table th {
+      background: #16a34a;
+      color: white;
+    }
+
+    .price-table tr:hover {
+      background: #f0fdf4;
+    }
+
+    .order-box {
+      background: linear-gradient(135deg, #16a34a, #15803d);
+      color: white;
+      padding: 45px 25px;
+      border-radius: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .order-box h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .order-box .btn {
+      background: white;
+      color: #15803d;
+    }
+
+    .contact {
+      text-align: center;
+      background: white;
+      padding: 35px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      .price-table th,
+      .price-table td {
+        padding: 10px 7px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">DC</div>
+
+    <h1>DENIZHA CELL</h1>
+
+    <p>Pulsa • Paket Data • Token PLN • Voucher Game</p>
+
+    <a class="btn"
+       href="https://wa.me/6285777949213?text=Halo%20DENIZHA%20CELL,%20saya%20ingin%20order."
+       target="_blank">
+      💬 BELI SEKARANG VIA WHATSAPP
+    </a>
+  </header>
+
+
+  <!-- PRODUK -->
+  <section class="container">
+
+    <div class="section-title">
+      <h2>🛍️ Layanan Kami</h2>
+      <p>Penuhi kebutuhan digital Anda dengan mudah</p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">📱</div>
+        <h3>Pulsa</h3>
+        <p>Telkomsel, Indosat, XL, Tri dan operator lainnya.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📶</div>
+        <h3>Paket Data</h3>
+        <p>Berbagai pilihan paket internet sesuai kebutuhan.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>Token PLN</h3>
+        <p>Isi token listrik dengan cepat dan mudah.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🎮</div>
+        <h3>Voucher Game</h3>
+        <p>Top up game favorit Anda dengan mudah.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- DAFTAR HARGA -->
+  <section class="container">
+
+    <div class="section-title">
+      <h2>💰 Daftar Harga Pulsa</h2>
+      <p>Harga contoh — dapat disesuaikan dengan harga agen Anda</p>
+    </div>
+
+    <table class="price-table">
+
+      <tr>
+        <th>Operator</th>
+        <th>Nominal</th>
+        <th>Harga</th>
+      </tr>
+
+      <tr>
+        <td>Telkomsel</td>
+        <td>Rp5.000</td>
+        <td>Rp7.000</td>
+      </tr>
+
+      <tr>
+        <td>Telkomsel</td>
+        <td>Rp10.000</td>
+        <td>Rp12.000</td>
+      </tr>
+
+      <tr>
+        <td>Telkomsel</td>
+        <td>Rp20.000</td>
+        <td>Rp22.000</td>
+      </tr>
+
+      <tr>
+        <td>Telkomsel</td>
+        <td>Rp50.000</td>
+        <td>Rp52.000</td>
+      </tr>
+
+      <tr>
+        <td>Indosat</td>
+        <td>Rp5.000</td>
+        <td>Rp7.000</td>
+      </tr>
+
+      <tr>
+        <td>Indosat</td>
+        <td>Rp10.000</td>
+        <td>Rp12.000</td>
+      </tr>
+
+      <tr>
+        <td>XL</td>
+        <td>Rp5.000</td>
+        <td>Rp7.000</td>
+      </tr>
+
+      <tr>
+        <td>XL</td>
+        <td>Rp10.000</td>
+        <td>Rp12.000</td>
+      </tr>
+
+      <tr>
+        <td>Tri</td>
+        <td>Rp5.000</td>
+        <td>Rp7.000</td>
+      </tr>
+
+      <tr>
+        <td>Tri</td>
+        <td>Rp10.000</td>
+        <td>Rp12.000</td>
+      </tr>
+
+    </table>
+
+
+    <!-- ORDER -->
+    <div class="order-box">
+
+      <h2>🚀 Mau Order?</h2>
+
+      <p>
+        Klik tombol di bawah dan langsung hubungi
+        DENIZHA CELL melalui WhatsApp.
+      </p>
+
+      <a class="btn"
+         href="https://wa.me/6285777949213?text=Halo%20DENIZHA%20CELL,%20saya%20ingin%20order.%0A%0ANomor%20HP:%0AProduk:%0ANominal:"
+         target="_blank">
+        💬 ORDER SEKARANG
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- CARA ORDER -->
+  <section class="container">
+
+    <div class="section-title">
+      <h2>📋 Cara Order</h2>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">1️⃣</div>
+        <h3>Pilih Produk</h3>
+        <p>Pilih pulsa, paket data atau layanan yang Anda butuhkan.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">2️⃣</div>
+        <h3>Hubungi Kami</h3>
+        <p>Klik tombol WhatsApp dan kirim detail pesanan.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">3️⃣</div>
+        <h3>Pembayaran</h3>
+        <p>Lakukan pembayaran sesuai total pesanan.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">4️⃣</div>
+        <h3>Pesanan Diproses</h3>
+        <p>Pesanan Anda akan segera diproses.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- KONTAK -->
+  <section class="container">
+
+    <div class="section-title">
+      <h2>📞 Hubungi Kami</h2>
+    </div>
+
+    <div class="contact">
+
+      <h2>DENIZHA CELL</h2>
+
+      <p>📱 WhatsApp: 085777949213</p>
+
+      <a class="btn"
+         href="https://wa.me/6285777949213"
+         target="_blank">
+        💬 CHAT WHATSAPP
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>© 2026 DENIZHA CELL</p>
+    <p>Pulsa • Paket Data • Token PLN • Voucher Game</p>
+
+  </footer>
+
+</body>
+</html>
